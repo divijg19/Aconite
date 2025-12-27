@@ -4,8 +4,8 @@
 def kidsWithCandies(candies, extraCandies):
     max_candies = max(candies)
     greatest = []
-    for x in candies:
-        if x + extraCandies >= max_candies:
+    for candy in candies:
+        if candy + extraCandies >= max_candies:
             greatest.append(True)
         else:
             greatest.append(False)
