@@ -16,3 +16,15 @@ def sort_array_by_parity_ii(nums):
             odd_index += 2
 
     return nums
+
+# class Solution:
+#     def sortArrayByParityII(self, nums: List[int]) -> List[int]:
+#         even=0
+#         odd=1
+#         while odd<len(nums):
+#             if(nums[odd]%2==0):
+#                 nums[even],nums[odd]=nums[odd],nums[even]
+#                 even+=2
+#             else:
+#                 odd+=2
+#         return nums
