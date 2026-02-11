@@ -4,12 +4,12 @@
 
 class Solution:
     def minLength(self, s: str) -> int:
-        stack = []
-        for char in s:
-            if stack and stack[-1] == "A" and char == "B":
-                stack.pop()
-            elif stack and stack[-1] == "C" and char == "D":
+        stack = [s[0]]
+        for ch in s[1:]:
+            prev = stack[-1] if stack else None
+            curr = ch
+            if (prev == "A" and curr == "B") or (prev == "C" and curr == "D"):
                 stack.pop()
             else:
-                stack.append(char)
+                stack.append(curr)
         return len(stack)
