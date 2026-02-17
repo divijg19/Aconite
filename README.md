@@ -1,5 +1,5 @@
 # Aconite
-Python Practice and Testing Repo
+Python Practice & Testing Repo
 
 <div align="center">
 
@@ -82,3 +82,4 @@ I'm actively seeking opportunities where I can apply these skills to solve real-
 *   **Divij Ganjoo**
 *   **LinkedIn:** [linkedin.com/in/divij-ganjoo](https://linkedin.com/in/divij-ganjoo)
 *   **Email:** [divijganjoo2003@gmail.com](mailto:divijganjoo2003@gmail.com)
+
