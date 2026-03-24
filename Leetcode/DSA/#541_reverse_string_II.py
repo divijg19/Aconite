@@ -1,0 +1,11 @@
+# 541. Reverse String II
+# https://leetcode.com/problems/reverse-string-ii/
+
+
+class Solution:
+    def reverseStr(self, s: str, k: int) -> str:
+        res = []
+        for i in range(0, len(s), 2 * k):
+            res.append(s[i : i + k][::-1])
+            res.append(s[i + k : i + 2 * k])
+        return "".join(res)
